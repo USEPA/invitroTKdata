@@ -4,7 +4,7 @@
 \name{smeltz2023.red}
 \alias{smeltz2023.red}
 \alias{Smeltz2023.red}
-\title{\insertCite{smeltz2023plasma;textual}{invitroTKstats} Rapid Equlibrium Dialysis Data Set}
+\title{\insertCite{smeltz2023plasma;textual}{invitroTKdata} Rapid Equlibrium Dialysis Data Set}
 \format{
 A level-2 data.frame with 3,955 rows and 25 variables: \describe{
 \item{\code{Lab.Sample.Name}}{Sample description used in the laboratory}
@@ -43,8 +43,8 @@ rapid equilibrium dialysis (RED) for per- and poly-fluorinated alkyl substance
 (PFAS) samples from experiments led by Dr.s Marci Smeltz and Barbara Wetmore.
 }
 \references{
-\insertRef{waters2008validation}{invitroTKstats}
+\insertRef{waters2008validation}{invitroTKdata}
 
-\insertRef{smeltz2023plasma}{invitroTKstats}
+\insertRef{smeltz2023plasma}{invitroTKdata}
 }
 \keyword{data}

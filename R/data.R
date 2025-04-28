@@ -1,7 +1,7 @@
 #This file is used by roxygen2 to generate man files (documentation) for data
 #sets included in the package.
 
-#' \insertCite{kreutz2023category;textual}{invitroTKstats} Intrinsic Hepatic Clearance Data Set
+#' \insertCite{kreutz2023category;textual}{invitroTKdata} Intrinsic Hepatic Clearance Data Set
 #'
 #' Mass Spectrometry measurements of intrinsic hepatic clearance (Clint) for
 #' cryopreserved pooled human hepatocyte suspensions. Chemicals were per- and
@@ -39,12 +39,12 @@
 #' }
 #'
 #' @references
-#' \insertRef{shibata2002prediction}{invitroTKstats}
+#' \insertRef{shibata2002prediction}{invitroTKdata}
 #'
-#' \insertRef{kreutz2023category}{invitroTKstats}
+#' \insertRef{kreutz2023category}{invitroTKdata}
 "kreutz2023.clint"
 
-#' \insertCite{kreutz2023category;textual}{invitroTKstats} Ultracentrifugation Data Set
+#' \insertCite{kreutz2023category;textual}{invitroTKdata} Ultracentrifugation Data Set
 #'
 #' Mass Spectrometry measurements of plasma protein binding measured by
 #' ultracentrifugation (UC) for per- and poly-fluorinated alkyl substance
@@ -79,13 +79,13 @@
 #' \item{\code{Verified}}{If "Y", then sample is included in the analysis. (Any other value causes the data to be ignored.)}
 #' }
 #' @references
-#' \insertRef{howard2010plasma}{invitroTKstats}
+#' \insertRef{howard2010plasma}{invitroTKdata}
 #'
-#' \insertRef{kreutz2023category}{invitroTKstats}
+#' \insertRef{kreutz2023category}{invitroTKdata}
 #' @keywords data
 "kreutz2023.uc"
 
-#' \insertCite{smeltz2023plasma;textual}{invitroTKstats} Intrinsic Hepatic Clearance Data Set
+#' \insertCite{smeltz2023plasma;textual}{invitroTKdata} Intrinsic Hepatic Clearance Data Set
 #'
 #' Mass Spectrometry measurements of intrinsic hepatic clearance (Clint) for
 #' cryopreserved pooled human hepatocytes. Chemicals were per- and
@@ -123,13 +123,13 @@
 #' }
 #'
 #' @references
-#' \insertRef{shibata2002prediction}{invitroTKstats}
+#' \insertRef{shibata2002prediction}{invitroTKdata}
 #'
-#' \insertRef{smeltz2023plasma}{invitroTKstats}
+#' \insertRef{smeltz2023plasma}{invitroTKdata}
 #' @keywords data
 "smeltz2023.clint"
 
-#' \insertCite{smeltz2023plasma;textual}{invitroTKstats} Rapid Equlibrium Dialysis Data Set
+#' \insertCite{smeltz2023plasma;textual}{invitroTKdata} Rapid Equlibrium Dialysis Data Set
 #'
 #' Mass Spectrometry measurements of plasma protein binding measured by
 #' rapid equilibrium dialysis (RED) for per- and poly-fluorinated alkyl substance
@@ -167,13 +167,13 @@
 #' }
 #'
 #' @references
-#' \insertRef{waters2008validation}{invitroTKstats}
+#' \insertRef{waters2008validation}{invitroTKdata}
 #'
-#' \insertRef{smeltz2023plasma}{invitroTKstats}
+#' \insertRef{smeltz2023plasma}{invitroTKdata}
 #' @keywords data
 "smeltz2023.red"
 
-#' \insertCite{smeltz2023plasma;textual}{invitroTKstats} Ultracentrifugation Data Set
+#' \insertCite{smeltz2023plasma;textual}{invitroTKdata} Ultracentrifugation Data Set
 #'
 #' Mass Spectrometry measurements of plasma protein binding measured by
 #' ultracentrifugation (UC) for per- and poly-fluorinated alkyl substance
@@ -209,17 +209,17 @@
 #' }
 #'
 #' @references
-#' \insertRef{howard2010plasma}{invitroTKstats}
+#' \insertRef{howard2010plasma}{invitroTKdata}
 #'
-#' \insertRef{smeltz2023plasma}{invitroTKstats}
+#' \insertRef{smeltz2023plasma}{invitroTKdata}
 #' @keywords data
 "smeltz2023.uc"
 
-#' Mass Spectrometry for \insertCite{wambaugh2019assessing;textual}{invitroTKstats} Hepatocyte Incubations
+#' Mass Spectrometry for \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Hepatocyte Incubations
 #'
-#' \insertCite{wambaugh2019assessing;textual}{invitroTKstats} includes measurements for intrinsic hepatic clearance
+#' \insertCite{wambaugh2019assessing;textual}{invitroTKdata} includes measurements for intrinsic hepatic clearance
 #' (Clint) measured using \emph{in vitro} suspensions of pooled primary human hepatocytes
-#' \insertCite{shibata2002prediction}{invitroTKstats}.
+#' \insertCite{shibata2002prediction}{invitroTKdata}.
 #'
 #' @name wambaugh2019.clint
 #' @aliases wambaugh2019.clint
@@ -239,16 +239,16 @@
 #' }
 #'
 #' @references
-#' \insertRef{shibata2002prediction}{invitroTKstats}
+#' \insertRef{shibata2002prediction}{invitroTKdata}
 #'
-#' \insertRef{wambaugh2019assessing}{invitroTKstats}
+#' \insertRef{wambaugh2019assessing}{invitroTKdata}
 #' @source Wambaugh et al. (2019)
 #' @keywords data
 "wambaugh2019.clint"
 
-#' Mass Spectrometry Methods for \insertCite{wambaugh2019assessing;textual}{invitroTKstats} Chemicals
+#' Mass Spectrometry Methods for \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Chemicals
 #'
-#' As reported in \insertCite{wambaugh2019assessing;textual}{invitroTKstats}, contractor Cyprotex performed \emph{in vitro}
+#' As reported in \insertCite{wambaugh2019assessing;textual}{invitroTKdata}, contractor Cyprotex performed \emph{in vitro}
 #' toxicokinetic experiments requiring the development of analytical chemistry
 #' methods to quantitative concentration.
 #' Liquid chromatography/mass spectrometry (LC/MS) was faster and
@@ -277,16 +277,16 @@
 #' \item{\code{Comment}}{Any additional comments for the test compound}
 #'   }
 #' @references
-#' \insertRef{wambaugh2019assessing}{invitroTKstats}
+#' \insertRef{wambaugh2019assessing}{invitroTKdata}
 #' @source Wambaugh et al. (2019)
 #' @keywords data
 "wambaugh2019.methods"
 
-#' Mass Spectrometry for \insertCite{wambaugh2019assessing;textual}{invitroTKstats} Protein Binding
+#' Mass Spectrometry for \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Protein Binding
 #'
-#' \insertCite{wambaugh2019assessing;textual}{invitroTKstats} includes chemical-specific measurements of plasma
+#' \insertCite{wambaugh2019assessing;textual}{invitroTKdata} includes chemical-specific measurements of plasma
 #' protein binding using the method of rapid equilibriuim dialysis (RED)
-#' \insertCite{waters2008validation}{invitroTKstats}.
+#' \insertCite{waters2008validation}{invitroTKdata}.
 #'
 #' @name wambaugh2019.red
 #' @aliases Wambaugh2019.red
@@ -306,9 +306,9 @@
 #' }
 #'
 #' @references
-#' \insertRef{waters2008validation}{invitroTKstats}
+#' \insertRef{waters2008validation}{invitroTKdata}
 #'
-#' \insertRef{wambaugh2019assessing}{invitroTKstats}
+#' \insertRef{wambaugh2019assessing}{invitroTKdata}
 #' @source Wambaugh et al. (2019)
 #' @keywords data
 "wambaugh2019.red"

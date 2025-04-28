@@ -4,7 +4,7 @@
 \name{kreutz2023.clint}
 \alias{kreutz2023.clint}
 \alias{Kreutz2023.clint}
-\title{\insertCite{kreutz2023category;textual}{invitroTKstats} Intrinsic Hepatic Clearance Data Set}
+\title{\insertCite{kreutz2023category;textual}{invitroTKdata} Intrinsic Hepatic Clearance Data Set}
 \format{
 A level-2 data.frame with 5,800 rows and 25 variables: \describe{
 \item{\code{Lab.Sample.Name}}{Sample description used in the laboratory}
@@ -43,8 +43,8 @@ polyfluoroalkyl substance (PFAS) samples. The experiments were
 led by Dr.s Anna Kreutz and Barbara Wetmore.
 }
 \references{
-\insertRef{shibata2002prediction}{invitroTKstats}
+\insertRef{shibata2002prediction}{invitroTKdata}
 
-\insertRef{kreutz2023category}{invitroTKstats}
+\insertRef{kreutz2023category}{invitroTKdata}
 }
 \keyword{datasets}

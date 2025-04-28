@@ -4,7 +4,7 @@
 \name{wambaugh2019.red}
 \alias{wambaugh2019.red}
 \alias{Wambaugh2019.red}
-\title{Mass Spectrometry for \insertCite{wambaugh2019assessing;textual}{invitroTKstats} Protein Binding}
+\title{Mass Spectrometry for \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Protein Binding}
 \format{
 A data.frame 17,689 rows and 11 variables: \describe{
 \item{\code{Preferred.Name}}{Preferred compound name from the CompTox Chemicals Dashboard (CCD)}
@@ -27,13 +27,13 @@ Wambaugh et al. (2019)
 wambaugh2019.red
 }
 \description{
-\insertCite{wambaugh2019assessing;textual}{invitroTKstats} includes chemical-specific measurements of plasma
+\insertCite{wambaugh2019assessing;textual}{invitroTKdata} includes chemical-specific measurements of plasma
 protein binding using the method of rapid equilibriuim dialysis (RED)
-\insertCite{waters2008validation}{invitroTKstats}.
+\insertCite{waters2008validation}{invitroTKdata}.
 }
 \references{
-\insertRef{waters2008validation}{invitroTKstats}
+\insertRef{waters2008validation}{invitroTKdata}
 
-\insertRef{wambaugh2019assessing}{invitroTKstats}
+\insertRef{wambaugh2019assessing}{invitroTKdata}
 }
 \keyword{data}

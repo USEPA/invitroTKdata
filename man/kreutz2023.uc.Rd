@@ -4,7 +4,7 @@
 \name{kreutz2023.uc}
 \alias{kreutz2023.uc}
 \alias{Kreutz2023.uc}
-\title{\insertCite{kreutz2023category;textual}{invitroTKstats} Ultracentrifugation Data Set}
+\title{\insertCite{kreutz2023category;textual}{invitroTKdata} Ultracentrifugation Data Set}
 \format{
 A data.frame with 2,955 rows and 23 variables: \describe{
 \item{\code{Lab.Sample.Name}}{Sample description used in the laboratory}
@@ -41,8 +41,8 @@ ultracentrifugation (UC) for per- and poly-fluorinated alkyl substance
 (PFAS) samples from experiments led by Dr.s Anna Kreutz and Barbara Wetmore.
 }
 \references{
-\insertRef{howard2010plasma}{invitroTKstats}
+\insertRef{howard2010plasma}{invitroTKdata}
 
-\insertRef{kreutz2023category}{invitroTKstats}
+\insertRef{kreutz2023category}{invitroTKdata}
 }
 \keyword{data}

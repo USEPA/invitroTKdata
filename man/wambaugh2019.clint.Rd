@@ -3,7 +3,7 @@
 \docType{data}
 \name{wambaugh2019.clint}
 \alias{wambaugh2019.clint}
-\title{Mass Spectrometry for \insertCite{wambaugh2019assessing;textual}{invitroTKstats} Hepatocyte Incubations}
+\title{Mass Spectrometry for \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Hepatocyte Incubations}
 \format{
 A data.frame with 23,021 rows and 11 variables: \describe{
 \item{\code{Preferred.Name}}{Preferred compound name from the CompTox Chemicals Dashboard (CCD)}
@@ -26,13 +26,13 @@ Wambaugh et al. (2019)
 wambaugh2019.clint
 }
 \description{
-\insertCite{wambaugh2019assessing;textual}{invitroTKstats} includes measurements for intrinsic hepatic clearance
+\insertCite{wambaugh2019assessing;textual}{invitroTKdata} includes measurements for intrinsic hepatic clearance
 (Clint) measured using \emph{in vitro} suspensions of pooled primary human hepatocytes
-\insertCite{shibata2002prediction}{invitroTKstats}.
+\insertCite{shibata2002prediction}{invitroTKdata}.
 }
 \references{
-\insertRef{shibata2002prediction}{invitroTKstats}
+\insertRef{shibata2002prediction}{invitroTKdata}
 
-\insertRef{wambaugh2019assessing}{invitroTKstats}
+\insertRef{wambaugh2019assessing}{invitroTKdata}
 }
 \keyword{data}

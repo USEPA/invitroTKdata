@@ -21,9 +21,11 @@ Authors@R: c(
              comment = c(ORCID = "0000-0003-2061-5830")),
            person("Anna", "Kreutz", role = c("ctb"))
            )
-Imports: Rdpack, invitroTKstats
+Depends: R (>= 3.5.0)
+Imports: Rdpack
 RdMacros: Rdpack
 License: GPL-3
+LazyData: true 
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2

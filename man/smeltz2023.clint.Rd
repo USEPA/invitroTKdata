@@ -4,7 +4,7 @@
 \name{smeltz2023.clint}
 \alias{smeltz2023.clint}
 \alias{Smeltz2023.clint}
-\title{\insertCite{smeltz2023plasma;textual}{invitroTKstats} Intrinsic Hepatic Clearance Data Set}
+\title{\insertCite{smeltz2023plasma;textual}{invitroTKdata} Intrinsic Hepatic Clearance Data Set}
 \format{
 A level-2 data.frame with 625 rows and 24 variables: \describe{
 \item{\code{Lab.Sample.Name}}{Sample description used in the laboratory}
@@ -43,8 +43,8 @@ polyfluoroalkyl substance (PFAS) samples. The experiments were
 led by Dr.s Marci Smeltz and Barbara Wetmore.
 }
 \references{
-\insertRef{shibata2002prediction}{invitroTKstats}
+\insertRef{shibata2002prediction}{invitroTKdata}
 
-\insertRef{smeltz2023plasma}{invitroTKstats}
+\insertRef{smeltz2023plasma}{invitroTKdata}
 }
 \keyword{data}

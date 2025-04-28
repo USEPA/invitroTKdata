@@ -4,7 +4,7 @@
 \name{wambaugh2019.methods}
 \alias{wambaugh2019.methods}
 \alias{Wambaugh2019.methods}
-\title{Mass Spectrometry Methods for \insertCite{wambaugh2019assessing;textual}{invitroTKstats} Chemicals}
+\title{Mass Spectrometry Methods for \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Chemicals}
 \format{
 A data.frame with 520 rows and 14 variables: \describe{
 \item{\code{DTXSID}}{EPA's DSSTox Structure ID}
@@ -30,7 +30,7 @@ Wambaugh et al. (2019)
 wambaugh2019.methods
 }
 \description{
-As reported in \insertCite{wambaugh2019assessing;textual}{invitroTKstats}, contractor Cyprotex performed \emph{in vitro}
+As reported in \insertCite{wambaugh2019assessing;textual}{invitroTKdata}, contractor Cyprotex performed \emph{in vitro}
 toxicokinetic experiments requiring the development of analytical chemistry
 methods to quantitative concentration.
 Liquid chromatography/mass spectrometry (LC/MS) was faster and
@@ -40,6 +40,6 @@ analysis method failed for both LC/MS and GC/MS and no
 \emph{in vitro} experiments were conducted.
 }
 \references{
-\insertRef{wambaugh2019assessing}{invitroTKstats}
+\insertRef{wambaugh2019assessing}{invitroTKdata}
 }
 \keyword{data}
