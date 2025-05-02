@@ -1,6 +1,6 @@
 Package: invitroTKdata
-Version: 0.0.0.9000
-Date: 2025-04-25
+Version: 0.0.1
+Date: 2025-05-02
 Title: Datasets from an In Vitro Toxicokinetic Data Processing and Analysis Pipeline (invitroTKstats)
 Description: A collection of datasets containing a variety of in vitro toxicokinetic 
              measurements including -- but not limited to -- chemical fraction unbound 
@@ -9,22 +9,23 @@ Description: A collection of datasets containing a variety of in vitro toxicokin
              oral absorption (Caco2). The datasets provided by the package were 
              processed and analyzed with the companion invitroTKstats package. 
 Authors@R: c(
-           person("John", "Wambaugh", email = "wambaugh.john@epa.gov", 
-             role = c("aut"),
-             comment = c(ORCID = "0000-0002-4024-534X")), 
            person("Sarah E.", "Davidson-Fritz", email = "davidsonfritz.sarah@epa.gov", 
              role = c("aut","cre"), comment = c(ORCID = "0000-0002-2891-9380")),
-           person("Lindsay","Knupp",email = "knupp.lindsay@epa.gov",
-           role = c("ctb")), 
-           person("Zhao", "Zhihui", role = c("ctb")),
+           person("John", "Wambaugh", email = "wambaugh.john@epa.gov", 
+             role = c("aut"),comment = c(ORCID = "0000-0002-4024-534X")),
+           person("Lindsay","Knupp",email = "knupp.lindsay@epa.gov",role = c("ctb")), 
+           person("Barbara A.","Wetmore",role = c("ctb"),
+            comment = c(ORCID = "0000-0002-6878-5348")),
+           person("Anna", "Kreutz", role = c("ctb")),
+           person("Marci","Smeltz",role = c("ctb"),
+            comment = c(ORCID = "0000-0001-9723-8696")),
            person("Chantel", "Nicolas", role = c("ctb"),
-             comment = c(ORCID = "0000-0003-2061-5830")),
-           person("Anna", "Kreutz", role = c("ctb"))
+             comment = c(ORCID = "0000-0003-2061-5830"))
            )
 Depends: R (>= 3.5.0)
 Imports: Rdpack
 RdMacros: Rdpack
-License: GPL-3
+License: MIT + file LICENSE
 LazyData: true 
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
