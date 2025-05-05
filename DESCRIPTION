@@ -1,6 +1,6 @@
 Package: invitroTKdata
 Version: 0.0.1
-Date: 2025-05-02
+Date: 2025-05-05
 Title: Datasets from an In Vitro Toxicokinetic Data Processing and Analysis Pipeline (invitroTKstats)
 Description: A collection of datasets containing a variety of in vitro toxicokinetic 
              measurements including -- but not limited to -- chemical fraction unbound 
@@ -19,8 +19,7 @@ Authors@R: c(
            person("Anna", "Kreutz", role = c("ctb")),
            person("Marci","Smeltz",role = c("ctb"),
             comment = c(ORCID = "0000-0001-9723-8696")),
-           person("Chantel", "Nicolas", role = c("ctb"),
-             comment = c(ORCID = "0000-0003-2061-5830"))
+           person("David","Crizer",role = c("ctb"))
            )
 Depends: R (>= 3.5.0)
 Imports: Rdpack

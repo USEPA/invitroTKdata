@@ -21,14 +21,59 @@ submit a issue or start a discussion.
 
 ### Installation
 
-To install the current version of the package from GitHub, run the
-folloiwng command:
+- Installing the current version of the package from GitHub, run the
+  following command:
 
 ``` r
 devtools::install_github("<TBD>")
 ```
 
-### Disclaimer
+- Installing a local clone of the GitHub repo:
+
+  1.  Go to the GitHub repo for [`invitroTKdata`](%22TBD%22)
+  2.  Choose the “Code” button and copy the repo URL.
+  3.  In your local command line terminal, navigate to the directory
+      location you wish to store your local copy of the repo.
+  4.  In your terminal type `git clone <TBD>`.
+  5.  After cloning completes then open an R session.
+  6.  In the R console use the follwing commands:
+
+``` r
+devtools::install_local(
+  "<file_path_to_invitroTKstats_repo>/invitroTKdata"
+)
+```
+
+- Installation may also be done via the RStudio provided ‘Install
+  Packages’ menu under the ‘Tools’ tab.
+
+### Loading the Package
+
+To load the `invitroTKdata` data R package into your local R session via
+the R console:
+
+``` r
+library(invitroTKdata)
+```
+
+Check the package version installed and in use:
+
+``` r
+packageVersion(invitroTKdata)
+```
+
+## Contributors
+
+- Sarah E. Davidson-Fritz (Conceptualization & Lead Package Developer)
+- John Wambaugh (Conceptualization, Data Processing, & Subject Matter
+  Expert)
+- Lindsay Knupp (Software Development)
+- Barbara A. Wetmore (Raw Data Generation & Subject Matter Expert)
+- Anna Kreutz (Raw Data Generation)
+- Marci Smeltz (Raw Data Generation)
+- David Crizer (Raw Data Generation)
+
+## Disclaimer
 
 The United States Environmental Protection Agency (EPA) GitHub project
 code is provided on an “as is” basis and the user assumes responsibility
