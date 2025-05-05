@@ -16,6 +16,12 @@ in the presence of plasma (f<sub>up</sub>), intrinsic hepatic clearance
 (Caco2). The datasets provided by the package were processed and
 analyzed with the companion `invitroTKstats` package
 
+**Notification:** *Datasets within this package have all been processed
+with various prototype versions of the `invitroTKstats` R package. We
+refer users to the `invitroTKstats` R package and “TBD data processing”
+GitHub pages to obtain the latest version of the package and original
+raw data, respectively.*
+
 If you are interested in contributing or want to report a bug, please
 submit a issue or start a discussion.
 
@@ -40,12 +46,21 @@ devtools::install_github("<TBD>")
 
 ``` r
 devtools::install_local(
-  "<file_path_to_invitroTKstats_repo>/invitroTKdata"
+  "<file_path_to_invitroTKdata_repo>/invitroTKdata"
 )
 ```
 
-- Installation may also be done via the RStudio provided ‘Install
-  Packages’ menu under the ‘Tools’ tab.
+- Installation a tarball version of the package:
+
+  1.  Save the tarball file “invitroTKdata_X.Y.Z.tar.gz” to a local
+      directory location.
+  2.  Install the package via the RStudio provided ‘Install Packages’
+      menu under the ‘Tools’ tab, or using the command line terminal
+      with the following:
+
+<!-- -->
+
+    R CMD INSTALL <file_path_to_invitroTKdata_tarball>/invitroTKdata_X.Y.Z.tar.gz
 
 ### Loading the Package
 
