@@ -9,18 +9,20 @@
 ## Welcome to the GitHub repository for the invitroTKdata package
 
 The `invitroTKdata` R package contains a collection of datasets
-collection of datasets containing a variety of in vitro toxicokinetic
-measurements including – but not limited to – chemical fraction unbound
-in the presence of plasma (f<sub>up</sub>), intrinsic hepatic clearance
-(Cl<sub>int</sub>), and membrane permeability for oral absorption
-(Caco2). The datasets provided by the package were processed and
-analyzed with the companion `invitroTKstats` package
+containing a variety of *in vitro* toxicokinetic measurements including
+– but not limited to – chemical fraction unbound in the presence of
+plasma ($f_{up}$), intrinsic hepatic clearance ($Cl_{int}$), and
+membrane permeability for oral absorption (Caco2). The datasets provided
+by the package were processed and analyzed with the companion
+`invitroTKstats` package
 
 **Notification:** *Datasets within this package have all been processed
 with various prototype versions of the `invitroTKstats` R package. We
-refer users to the `invitroTKstats` R package and “TBD data processing”
+refer users to the [`invitroTKstats` R
+package](https://github.com/USEPA/invitroTKstats.git) and
+[invitrotkstats_dataproc](https://github.com/USEPA/invitrotkstats_dataproc.git)
 GitHub pages to obtain the latest version of the package and original
-raw data, respectively.*
+raw data/processing scripts, respectively.*
 
 If you are interested in contributing or want to report a bug, please
 submit a issue or start a discussion.
@@ -31,16 +33,18 @@ submit a issue or start a discussion.
   following command:
 
 ``` r
-devtools::install_github("<TBD>")
+devtools::install_github("https://github.com/USEPA/invitroTKdata.git")
 ```
 
 - Installing a local clone of the GitHub repo:
 
-  1.  Go to the GitHub repo for [`invitroTKdata`](%22TBD%22)
+  1.  Go to the GitHub repo for
+      [`invitroTKdata`](https://github.com/USEPA/invitroTKdata.git)
   2.  Choose the “Code” button and copy the repo URL.
   3.  In your local command line terminal, navigate to the directory
       location you wish to store your local copy of the repo.
-  4.  In your terminal type `git clone <TBD>`.
+  4.  In your terminal type
+      `git clone https://github.com/USEPA/invitroTKdata.git`.
   5.  After cloning completes then open an R session.
   6.  In the R console use the follwing commands:
 
@@ -50,7 +54,7 @@ devtools::install_local(
 )
 ```
 
-- Installation a tarball version of the package:
+- Installing a tarball version of the package:
 
   1.  Save the tarball file “invitroTKdata_X.Y.Z.tar.gz” to a local
       directory location.
@@ -61,6 +65,9 @@ devtools::install_local(
 <!-- -->
 
     R CMD INSTALL <file_path_to_invitroTKdata_tarball>/invitroTKdata_X.Y.Z.tar.gz
+
+*NOTE: “X.Y.Z” in the tarball filename indicates the version number
+associated with the version of the package you wish to install.*
 
 ### Loading the Package
 
