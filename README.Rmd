@@ -24,24 +24,24 @@ The `invitroTKdata` R package contains a collection of datasets containing a var
 
 **Notification:** *Datasets within this package have all been processed with various prototype versions of the `invitroTKstats` R package. We refer users to the [`invitroTKstats` R package](https://github.com/USEPA/invitroTKstats.git) and [invitrotkstats_dataproc](https://github.com/USEPA/invitrotkstats_dataproc.git) GitHub pages to obtain the latest version of the package and original raw data/processing scripts, respectively.*
 
-If you are interested in contributing or want to report a bug, please submit a issue or start a discussion.
+If you are interested in contributing or want to report a bug, please submit an issue or start a discussion.
 
 ### Installation
 
 * Installing the current version of the package from GitHub, run the following command:
 
-``` r
+```r
 devtools::install_github("https://github.com/USEPA/invitroTKdata.git")
 ```
 
 * Installing a local clone of the GitHub repo:
 
-  1. Go to the GitHub repo for [`invitroTKdata`](https://github.com/USEPA/invitroTKdata.git)
+  1. Go to the GitHub repo for [`invitroTKdata`](https://github.com/USEPA/invitroTKdata.git).
   2. Choose the "Code" button and copy the repo URL.
   3. In your local command line terminal, navigate to the directory location you wish to store your local copy of the repo.
   4. In your terminal type `git clone https://github.com/USEPA/invitroTKdata.git`.
   5. After cloning completes then open an R session.
-  6. In the R console use the follwing commands:
+  6. In the R console use the following commands:
   
 ```r
 devtools::install_local(
@@ -71,7 +71,7 @@ library(invitroTKdata)
 Check the package version installed and in use:
 
 ```r
-packageVersion(invitroTKdata)
+packageVersion("invitroTKdata")
 ```
 
 ## Contributors
