@@ -1,6 +1,86 @@
 #This file is used by roxygen2 to generate man files (documentation) for data
 #sets included in the package.
 
+###====================###
+### Crizer et al. 2024 ###
+###====================###
+
+#' \insertCite{crizer2024vitro;textual}{invitroTKdata} Intrinsic Hepatic Clearance Level-2 Data Set
+#'
+#' Mass Spectrometry measurements of intrinsic hepatic clearance (Clint) for
+#' cryopreserved pooled human hepatocyte suspensions. Chemicals were per- and
+#' polyfluoroalkyl substance (PFAS) samples. The experiments were
+#' led by Dr. Crizer.
+#'
+#' @name crizer2024.clint
+#' @aliases Crizer2024.clint
+#' @docType data
+#' @format A level-2 data.frame with 7,070 rows and 24 variables: \describe{
+#' \item{\code{Lab.Sample.Name}}{Sample description used in the laboratory}
+#' \item{\code{Date}}{Date sample was acquired}
+#' \item{\code{Compound.Name}}{Compound name}
+#' \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
+#' \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
+#' \item{\code{Sample.Type}}{Type of Clint sample}
+#' \item{\code{Dilution.Factor}}{Number of times the sample was diluted}
+#' \item{\code{Calibration}}{Identifier for mass spectrometry calibration -- usually the date}
+#' \item{\code{ISTD.Name}}{Name of compound used as internal standard (ISTD)}
+#' \item{\code{ISTD.Conc}}{Concentration of ISTD (uM)}
+#' \item{\code{ISTD.Area}}{Peak area of internal standard (pixels)}
+#' \item{\code{Hep.Density}}{The density (units of millions of hepatocytes per mL) hepatocytes in the \emph{in vitro} incubation}
+#' \item{\code{Std.Conc}}{Concentration of analytic standard (for calibration curve) (uM)}
+#' \item{\code{Clint.Assay.Conc}}{Intended initial concentration of chemical (uM)}
+#' \item{\code{Time}}{Time when sample was measured (h)}
+#' \item{\code{Area}}{Peak area of analyte (target compound)}
+#' \item{\code{Analysis.Method}}{General description of chemical analysis method}
+#' \item{\code{Analysis.Instrument}}{Instrument(s) used for chemical analysis)}
+#' \item{\code{Analysis.Parameters}}{Parameters for identifing analyte peak (for example, retention time)}
+#' \item{\code{Note}}{Any laboratory notes about sample}
+#' \item{\code{Level0.File}}{Name of data file from laboratory that was used to compile level-0 data.frame}
+#' \item{\code{Level0.Sheet}}{Name of "sheet" (for Excel workbooks) from which the laboratory data were read}
+#' \item{\code{Response}}{Response factor (calculated from analyte and ISTD peaks)}
+#' \item{\code{Verified}}{If "Y", then sample is included in the analysis. (Any other value causes the data to be ignored.)}
+#' }
+#'
+#' @references
+#' \insertRef{crizer2024vitro}{invitroTKdata}
+"crizer2024.clint"
+
+
+#' \insertCite{crizer2024vitro;textual}{invitroTKdata} Intrinsic Hepatic Clearance Level-3 Data Set
+#'
+#' Frequentist estimates of intrinsic hepatic clearance (Clint) for
+#' cryopreserved pooled human hepatocyte suspensions. Chemicals were per- and
+#' polyfluoroalkyl substance (PFAS) samples. The experiments were
+#' led by Dr. Crizer.
+#'
+#' @name crizer2024.clint.L3
+#' @aliases Crizer2024.clint.L3
+#' @docType data
+#' @format A level-3 data.frame with 60 rows and 13 variables: \describe{
+#' \item{\code{Compound.Name}}{Compound name}
+#' \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
+#' \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
+#' \item{\code{Calibration}}{Identifier for mass spectrometry calibration -- usually the date}
+#' \item{\code{Clint}{Frequentist point estimate for intrinsic hepatic clearance (Clint)}}
+#' \item{\code{Clint.pValue}{p-value of the estimated \code{Clint} value}}
+#' \item{\code{Fit}{Test nominal concentrations in the linear regression fit}}
+#' \item{\code{AIC}{Akaike Information Criterion (AIC) for the linear regression fit}}
+#' \item{\code{AIC.Null}{Akaike Information Criterion of the exponential decay assuming a constant rate of decay}}
+#' \item{\code{Clint.1}{Intrinsic hepatic clearance at 1 uM (frequentist point estimate)}}
+#' \item{\code{Clint.10}{Intrinsic hepatic clearance at 10 uM (frequentist point estimate)}}
+#' \item{\code{AIC.Sat}{Akaike Information Criterion of the exponential decay with a saturation probability}}
+#' \item{\code{Sat.pValue}{p-value of exponential decay with a saturation probability}}
+#' }
+#'
+#' @references
+#' \insertRef{crizer2024vitro}{invitroTKdata}
+"crizer2024.clint.L3"
+
+###====================###
+### Kreutz et al. 2023 ###
+###====================###
+
 #' \insertCite{kreutz2023category;textual}{invitroTKdata} Intrinsic Hepatic Clearance Data Set
 #'
 #' Mass Spectrometry measurements of intrinsic hepatic clearance (Clint) for
@@ -84,6 +164,10 @@
 #' \insertRef{kreutz2023category}{invitroTKdata}
 #' @keywords data
 "kreutz2023.uc"
+
+###====================###
+### Smeltz et al. 2023 ###
+###====================###
 
 #' \insertCite{smeltz2023plasma;textual}{invitroTKdata} Intrinsic Hepatic Clearance Data Set
 #'
@@ -214,6 +298,10 @@
 #' \insertRef{smeltz2023plasma}{invitroTKdata}
 #' @keywords data
 "smeltz2023.uc"
+
+###======================###
+### Wambaugh et al. 2019 ###
+###======================###
 
 #' Mass Spectrometry for \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Hepatocyte Incubations
 #'
