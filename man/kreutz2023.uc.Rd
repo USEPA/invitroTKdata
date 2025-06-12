@@ -4,9 +4,9 @@
 \name{kreutz2023.uc}
 \alias{kreutz2023.uc}
 \alias{Kreutz2023.uc}
-\title{\insertCite{kreutz2023category;textual}{invitroTKdata} Ultracentrifugation Data Set}
+\title{\insertCite{kreutz2023category;textual}{invitroTKdata} Ultracentrifugation Level-2 Data Set}
 \format{
-A data.frame with 2,955 rows and 23 variables: \describe{
+A level-2 data.frame with 2,955 rows and 23 variables: \describe{
 \item{\code{Lab.Sample.Name}}{Sample description used in the laboratory}
 \item{\code{Date}}{Date sample was acquired}
 \item{\code{Compound.Name}}{Compound name}

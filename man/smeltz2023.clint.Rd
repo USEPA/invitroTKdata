@@ -4,7 +4,7 @@
 \name{smeltz2023.clint}
 \alias{smeltz2023.clint}
 \alias{Smeltz2023.clint}
-\title{\insertCite{smeltz2023plasma;textual}{invitroTKdata} Intrinsic Hepatic Clearance Data Set}
+\title{\insertCite{smeltz2023plasma;textual}{invitroTKdata} Intrinsic Hepatic Clearance Level-2 Data Set}
 \format{
 A level-2 data.frame with 625 rows and 24 variables: \describe{
 \item{\code{Lab.Sample.Name}}{Sample description used in the laboratory}

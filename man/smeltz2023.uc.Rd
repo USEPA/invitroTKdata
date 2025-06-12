@@ -4,7 +4,7 @@
 \name{smeltz2023.uc}
 \alias{smeltz2023.uc}
 \alias{Smeltz2023.uc}
-\title{\insertCite{smeltz2023plasma;textual}{invitroTKdata} Ultracentrifugation Data Set}
+\title{\insertCite{smeltz2023plasma;textual}{invitroTKdata} Ultracentrifugation Level-2 Data Set}
 \format{
 A level-2 data.frame with 10,133 rows and 23 variables: \describe{
 \item{\code{Lab.Sample.Name}}{Sample description used in the laboratory}
