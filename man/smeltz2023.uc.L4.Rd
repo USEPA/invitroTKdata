@@ -10,10 +10,10 @@ A level-4 data.frame with 69 rows and 7 variables: \describe{
 \item{\code{Compound.Name}}{Compound name}
 \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
-\item{\code{Fup.Med}{Posterior median fraction unbound in plasma}}
-\item{\code{Fup.Low}{Posterior 2.5th quantile of fraction unbound in plasma (lower credible interval bound)}}
-\item{\code{Fup.High}{Posterior 97.5th quantile of fraction unbound in plasma (upper credible interval bound)}}
-\item{\code{Fup.point}{Point estimate of fraction unbound in plasma}}
+\item{\code{Fup.Med}}{Posterior median fraction unbound in plasma}
+\item{\code{Fup.Low}}{Posterior 2.5th quantile of fraction unbound in plasma (lower credible interval bound)}
+\item{\code{Fup.High}}{Posterior 97.5th quantile of fraction unbound in plasma (upper credible interval bound)}
+\item{\code{Fup.point}}{Point estimate of fraction unbound in plasma}
 }
 }
 \usage{

@@ -10,16 +10,16 @@ A level-4 data.frame with 52 rows and 13 variables: \describe{
 \item{\code{Compound.Name}}{Compound name}
 \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
-\item{\code{Fstable.Med}{Posterior median chemical stability fraction}}
-\item{\code{Fstable.Low}{Posterior 2.5th quantile chemical stability fraction (lower credible interval bound)}}
-\item{\code{Fstable.High}{Posterior 97.5th quantile chemical stability fraction (upper credible interval bound)}}
-\item{\code{Fup.Med}{Posterior median fraction unbound in plasma}}
-\item{\code{Fup.Low}{Posterior 2.5th quantile of fraction unbound in plasma (lower credible interval bound)}}
-\item{\code{Fup.High}{Posterior 97.5th quantile of fraction unbound in plasma (upper credible interval bound)}}
-\item{\code{Fup.point}{Point estimate of fraction unbound in plasma}}
-\item{\code{Unstable}{Qualitative determination of chemical stability. "Y" indicates observed chemical stability.}}
-\item{\code{Uncertain}{Qualitative determination of uncertainty about chemical stability. "Y" indicates uncertainty in observed chemical stability.}}
-\item{\code{CV}{Coefficient of variance}}
+\item{\code{Fstable.Med}}{Posterior median chemical stability fraction}
+\item{\code{Fstable.Low}}{Posterior 2.5th quantile chemical stability fraction (lower credible interval bound)}
+\item{\code{Fstable.High}}{Posterior 97.5th quantile chemical stability fraction (upper credible interval bound)}
+\item{\code{Fup.Med}}{Posterior median fraction unbound in plasma}
+\item{\code{Fup.Low}}{Posterior 2.5th quantile of fraction unbound in plasma (lower credible interval bound)}
+\item{\code{Fup.High}}{Posterior 97.5th quantile of fraction unbound in plasma (upper credible interval bound)}
+\item{\code{Fup.point}}{Point estimate of fraction unbound in plasma}
+\item{\code{Unstable}}{Qualitative determination of chemical stability. "Y" indicates observed chemical stability.}
+\item{\code{Uncertain}}{Qualitative determination of uncertainty about chemical stability. "Y" indicates uncertainty in observed chemical stability.}
+\item{\code{CV}}{Coefficient of variance}
 }
 }
 \usage{

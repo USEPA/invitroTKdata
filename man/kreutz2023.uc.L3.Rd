@@ -11,7 +11,7 @@ A level-3 data.frame with 73 rows and 5 variables: \describe{
 \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
 \item{\code{Calibration}}{Identifier for mass spectrometry calibration -- usually the date}
-\item{\code{Fup}{Frequentist point estimate for fraction unbound in plasma (fup)}}
+\item{\code{Fup}}{Frequentist point estimate for fraction unbound in plasma (fup)}
 }
 }
 \usage{

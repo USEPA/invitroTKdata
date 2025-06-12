@@ -11,15 +11,15 @@ A level-3 data.frame with 60 rows and 13 variables: \describe{
 \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
 \item{\code{Calibration}}{Identifier for mass spectrometry calibration -- usually the date}
-\item{\code{Clint}{Frequentist point estimate for intrinsic hepatic clearance (Clint)}}
-\item{\code{Clint.pValue}{p-value of the estimated \code{Clint} value}}
-\item{\code{Fit}{Test nominal concentrations in the linear regression fit}}
-\item{\code{AIC}{Akaike Information Criterion (AIC) for the linear regression fit}}
-\item{\code{AIC.Null}{Akaike Information Criterion of the exponential decay assuming a constant rate of decay}}
-\item{\code{Clint.1}{Intrinsic hepatic clearance at 1 uM (frequentist point estimate)}}
-\item{\code{Clint.10}{Intrinsic hepatic clearance at 10 uM (frequentist point estimate)}}
-\item{\code{AIC.Sat}{Akaike Information Criterion of the exponential decay with a saturation probability}}
-\item{\code{Sat.pValue}{p-value of exponential decay with a saturation probability}}
+\item{\code{Clint}}{Frequentist point estimate for intrinsic hepatic clearance (Clint)}
+\item{\code{Clint.pValue}}{p-value of the estimated \code{Clint} value}
+\item{\code{Fit}}{Test nominal concentrations in the linear regression fit}
+\item{\code{AIC}}{Akaike Information Criterion (AIC) for the linear regression fit}
+\item{\code{AIC.Null}}{Akaike Information Criterion of the exponential decay assuming a constant rate of decay}
+\item{\code{Clint.1}}{Intrinsic hepatic clearance at 1 uM (frequentist point estimate)}
+\item{\code{Clint.10}}{Intrinsic hepatic clearance at 10 uM (frequentist point estimate)}
+\item{\code{AIC.Sat}}{Akaike Information Criterion of the exponential decay with a saturation probability}
+\item{\code{Sat.pValue}}{p-value of exponential decay with a saturation probability}
 }
 }
 \usage{

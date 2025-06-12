@@ -10,15 +10,15 @@ A level-4 data.frame with 60 rows and 12 variables: \describe{
 \item{\code{Compound.Name}}{Compound name}
 \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
-\item{\code{Clint.1.Med}{Posterior median intrinsic hepatic clearance at 1 uM}}
-\item{\code{Clint.1.Low}{Posterior 2.5th quantile of intrinsic hepatic clearance at 1 uM (lower credible interval bound)}}
-\item{\code{Clint.1.High}{Posterior 97.5th quantile of intrinsic hepatic clearance at 1 uM (upper credible interval bound)}}
-\item{\code{Clint.10.Med}{Posterior median intrinsic hepatic clearance at 10 uM}}
-\item{\code{Clint.10.Low}{Posterior 2.5th quantile of intrinsic hepatic clearance at 10 uM (lower credible interval bound)}}
-\item{\code{Clint.10.High}{Posterior 97.5th quantile of intrinsic hepatic clearance at 1 uM (upper credible interval bound)}}
-\item{\code{Clint.pValue}{Probability that a chemical concentration decrease is observed}}
-\item{\code{Sat.pValue}{Probability that a lower \code{Clint} is observed at a higher concentration, i.e. saturation probability}}
-\item{\code{degrades.pValue}{Probability of abiotic degradation}}
+\item{\code{Clint.1.Med}}{Posterior median intrinsic hepatic clearance at 1 uM}
+\item{\code{Clint.1.Low}}{Posterior 2.5th quantile of intrinsic hepatic clearance at 1 uM (lower credible interval bound)}
+\item{\code{Clint.1.High}}{Posterior 97.5th quantile of intrinsic hepatic clearance at 1 uM (upper credible interval bound)}
+\item{\code{Clint.10.Med}}{Posterior median intrinsic hepatic clearance at 10 uM}
+\item{\code{Clint.10.Low}}{Posterior 2.5th quantile of intrinsic hepatic clearance at 10 uM (lower credible interval bound)}
+\item{\code{Clint.10.High}}{Posterior 97.5th quantile of intrinsic hepatic clearance at 1 uM (upper credible interval bound)}
+\item{\code{Clint.pValue}}{Probability that a chemical concentration decrease is observed}
+\item{\code{Sat.pValue}}{Probability that a lower \code{Clint} is observed at a higher concentration, i.e. saturation probability}
+\item{\code{degrades.pValue}}{Probability of abiotic degradation}
 }
 }
 \usage{

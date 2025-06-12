@@ -10,7 +10,7 @@ A level-3 data.frame with 15 rows and 4 variables: \describe{
 \item{\code{Compound.Name}}{Compound name}
 \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 \item{\code{Calibration}}{Identifier for mass spectrometry calibration -- usually the date}
-\item{\code{Fup}{Frequentist point estimate for fraction unbound in plasma (fup)}}
+\item{\code{Fup}}{Frequentist point estimate for fraction unbound in plasma (fup)}
 }
 }
 \usage{
