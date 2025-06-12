@@ -61,15 +61,15 @@
 #' \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 #' \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
 #' \item{\code{Calibration}}{Identifier for mass spectrometry calibration -- usually the date}
-#' \item{\code{Clint}{Frequentist point estimate for intrinsic hepatic clearance (Clint)}}
-#' \item{\code{Clint.pValue}{p-value of the estimated \code{Clint} value}}
-#' \item{\code{Fit}{Test nominal concentrations in the linear regression fit}}
-#' \item{\code{AIC}{Akaike Information Criterion (AIC) for the linear regression fit}}
-#' \item{\code{AIC.Null}{Akaike Information Criterion of the exponential decay assuming a constant rate of decay}}
-#' \item{\code{Clint.1}{Intrinsic hepatic clearance at 1 uM (frequentist point estimate)}}
-#' \item{\code{Clint.10}{Intrinsic hepatic clearance at 10 uM (frequentist point estimate)}}
-#' \item{\code{AIC.Sat}{Akaike Information Criterion of the exponential decay with a saturation probability}}
-#' \item{\code{Sat.pValue}{p-value of exponential decay with a saturation probability}}
+#' \item{\code{Clint}}{Frequentist point estimate for intrinsic hepatic clearance (Clint)}
+#' \item{\code{Clint.pValue}}{p-value of the estimated \code{Clint} value}
+#' \item{\code{Fit}}{Test nominal concentrations in the linear regression fit}
+#' \item{\code{AIC}}{Akaike Information Criterion (AIC) for the linear regression fit}
+#' \item{\code{AIC.Null}}{Akaike Information Criterion of the exponential decay assuming a constant rate of decay}
+#' \item{\code{Clint.1}}{Intrinsic hepatic clearance at 1 uM (frequentist point estimate)}
+#' \item{\code{Clint.10}}{Intrinsic hepatic clearance at 10 uM (frequentist point estimate)}
+#' \item{\code{AIC.Sat}}{Akaike Information Criterion of the exponential decay with a saturation probability}
+#' \item{\code{Sat.pValue}}{p-value of exponential decay with a saturation probability}
 #' }
 #'
 #' @references
@@ -90,15 +90,15 @@
 #' \item{\code{Compound.Name}}{Compound name}
 #' \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 #' \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
-#' \item{\code{Clint.1.Med}{Posterior median intrinsic hepatic clearance at 1 uM}}
-#' \item{\code{Clint.1.Low}{Posterior 2.5th quantile of intrinsic hepatic clearance at 1 uM (lower credible interval bound)}}
-#' \item{\code{Clint.1.High}{Posterior 97.5th quantile of intrinsic hepatic clearance at 1 uM (upper credible interval bound)}}
-#' \item{\code{Clint.10.Med}{Posterior median intrinsic hepatic clearance at 10 uM}}
-#' \item{\code{Clint.10.Low}{Posterior 2.5th quantile of intrinsic hepatic clearance at 10 uM (lower credible interval bound)}}
-#' \item{\code{Clint.10.High}{Posterior 97.5th quantile of intrinsic hepatic clearance at 1 uM (upper credible interval bound)}}
-#' \item{\code{Clint.pValue}{Probability that a chemical concentration decrease is observed}}
-#' \item{\code{Sat.pValue}{Probability that a lower \code{Clint} is observed at a higher concentration, i.e. saturation probability}}
-#' \item{\code{degrades.pValue}{Probability of abiotic degradation}}
+#' \item{\code{Clint.1.Med}}{Posterior median intrinsic hepatic clearance at 1 uM}
+#' \item{\code{Clint.1.Low}}{Posterior 2.5th quantile of intrinsic hepatic clearance at 1 uM (lower credible interval bound)}
+#' \item{\code{Clint.1.High}}{Posterior 97.5th quantile of intrinsic hepatic clearance at 1 uM (upper credible interval bound)}
+#' \item{\code{Clint.10.Med}}{Posterior median intrinsic hepatic clearance at 10 uM}
+#' \item{\code{Clint.10.Low}}{Posterior 2.5th quantile of intrinsic hepatic clearance at 10 uM (lower credible interval bound)}
+#' \item{\code{Clint.10.High}}{Posterior 97.5th quantile of intrinsic hepatic clearance at 1 uM (upper credible interval bound)}
+#' \item{\code{Clint.pValue}}{Probability that a chemical concentration decrease is observed}
+#' \item{\code{Sat.pValue}}{Probability that a lower \code{Clint} is observed at a higher concentration, i.e. saturation probability}
+#' \item{\code{degrades.pValue}}{Probability of abiotic degradation}
 #' }
 #'
 #' @references
@@ -167,15 +167,15 @@
 #' \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 #' \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
 #' \item{\code{Calibration}}{Identifier for mass spectrometry calibration -- usually the date}
-#' \item{\code{Clint}{Frequentist point estimate for intrinsic hepatic clearance (Clint)}}
-#' \item{\code{Clint.pValue}{p-value of the estimated \code{Clint} value}}
-#' \item{\code{Fit}{Test nominal concentrations in the linear regression fit}}
-#' \item{\code{AIC}{Akaike Information Criterion (AIC) for the linear regression fit}}
-#' \item{\code{AIC.Null}{Akaike Information Criterion of the exponential decay assuming a constant rate of decay}}
-#' \item{\code{Clint.1}{Intrinsic hepatic clearance at 1 uM (frequentist point estimate)}}
-#' \item{\code{Clint.10}{Intrinsic hepatic clearance at 10 uM (frequentist point estimate)}}
-#' \item{\code{AIC.Sat}{Akaike Information Criterion of the exponential decay with a saturation probability}}
-#' \item{\code{Sat.pValue}{p-value of exponential decay with a saturation probability}}
+#' \item{\code{Clint}}{Frequentist point estimate for intrinsic hepatic clearance (Clint)}
+#' \item{\code{Clint.pValue}}{p-value of the estimated \code{Clint} value}
+#' \item{\code{Fit}}{Test nominal concentrations in the linear regression fit}
+#' \item{\code{AIC}}{Akaike Information Criterion (AIC) for the linear regression fit}
+#' \item{\code{AIC.Null}}{Akaike Information Criterion of the exponential decay assuming a constant rate of decay}
+#' \item{\code{Clint.1}}{Intrinsic hepatic clearance at 1 uM (frequentist point estimate)}
+#' \item{\code{Clint.10}}{Intrinsic hepatic clearance at 10 uM (frequentist point estimate)}
+#' \item{\code{AIC.Sat}}{Akaike Information Criterion of the exponential decay with a saturation probability}
+#' \item{\code{Sat.pValue}}{p-value of exponential decay with a saturation probability}
 #' }
 #'
 #' @references
@@ -198,15 +198,15 @@
 #' \item{\code{Compound.Name}}{Compound name}
 #' \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 #' \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
-#' \item{\code{Clint.1.Med}{Posterior median intrinsic hepatic clearance at 1 uM}}
-#' \item{\code{Clint.1.Low}{Posterior 2.5th quantile of intrinsic hepatic clearance at 1 uM (lower credible interval bound)}}
-#' \item{\code{Clint.1.High}{Posterior 97.5th quantile of intrinsic hepatic clearance at 1 uM (upper credible interval bound)}}
-#' \item{\code{Clint.10.Med}{Posterior median intrinsic hepatic clearance at 10 uM}}
-#' \item{\code{Clint.10.Low}{Posterior 2.5th quantile of intrinsic hepatic clearance at 10 uM (lower credible interval bound)}}
-#' \item{\code{Clint.10.High}{Posterior 97.5th quantile of intrinsic hepatic clearance at 1 uM (upper credible interval bound)}}
-#' \item{\code{Clint.pValue}{Probability that a chemical concentration decrease is observed}}
-#' \item{\code{Sat.pValue}{Probability that a lower \code{Clint} is observed at a higher concentration, i.e. saturation probability}}
-#' \item{\code{degrades.pValue}{Probability of abiotic degradation}}
+#' \item{\code{Clint.1.Med}}{Posterior median intrinsic hepatic clearance at 1 uM}
+#' \item{\code{Clint.1.Low}}{Posterior 2.5th quantile of intrinsic hepatic clearance at 1 uM (lower credible interval bound)}
+#' \item{\code{Clint.1.High}}{Posterior 97.5th quantile of intrinsic hepatic clearance at 1 uM (upper credible interval bound)}
+#' \item{\code{Clint.10.Med}}{Posterior median intrinsic hepatic clearance at 10 uM}
+#' \item{\code{Clint.10.Low}}{Posterior 2.5th quantile of intrinsic hepatic clearance at 10 uM (lower credible interval bound)}
+#' \item{\code{Clint.10.High}}{Posterior 97.5th quantile of intrinsic hepatic clearance at 1 uM (upper credible interval bound)}
+#' \item{\code{Clint.pValue}}{Probability that a chemical concentration decrease is observed}
+#' \item{\code{Sat.pValue}}{Probability that a lower \code{Clint} is observed at a higher concentration, i.e. saturation probability}
+#' \item{\code{degrades.pValue}}{Probability of abiotic degradation}
 #' }
 #'
 #' @references
@@ -270,7 +270,7 @@
 #' \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 #' \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
 #' \item{\code{Calibration}}{Identifier for mass spectrometry calibration -- usually the date}
-#' \item{\code{Fup}{Frequentist point estimate for fraction unbound in plasma (fup)}}
+#' \item{\code{Fup}}{Frequentist point estimate for fraction unbound in plasma (fup)}
 #' }
 #' @references
 #' \insertRef{howard2010plasma}{invitroTKdata}
@@ -292,16 +292,16 @@
 #' \item{\code{Compound.Name}}{Compound name}
 #' \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 #' \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
-#' \item{\code{Fstable.Med}{Posterior median chemical stability fraction}}
-#' \item{\code{Fstable.Low}{Posterior 2.5th quantile chemical stability fraction (lower credible interval bound)}}
-#' \item{\code{Fstable.High}{Posterior 97.5th quantile chemical stability fraction (upper credible interval bound)}}
-#' \item{\code{Fup.Med}{Posterior median fraction unbound in plasma}}
-#' \item{\code{Fup.Low}{Posterior 2.5th quantile of fraction unbound in plasma (lower credible interval bound)}}
-#' \item{\code{Fup.High}{Posterior 97.5th quantile of fraction unbound in plasma (upper credible interval bound)}}
-#' \item{\code{Fup.point}{Point estimate of fraction unbound in plasma}}
-#' \item{\code{Unstable}{Qualitative determination of chemical stability. "Y" indicates observed chemical stability.}}
-#' \item{\code{Uncertain}{Qualitative determination of uncertainty about chemical stability. "Y" indicates uncertainty in observed chemical stability.}}
-#' \item{\code{CV}{Coefficient of variance}}
+#' \item{\code{Fstable.Med}}{Posterior median chemical stability fraction}
+#' \item{\code{Fstable.Low}}{Posterior 2.5th quantile chemical stability fraction (lower credible interval bound)}
+#' \item{\code{Fstable.High}}{Posterior 97.5th quantile chemical stability fraction (upper credible interval bound)}
+#' \item{\code{Fup.Med}}{Posterior median fraction unbound in plasma}
+#' \item{\code{Fup.Low}}{Posterior 2.5th quantile of fraction unbound in plasma (lower credible interval bound)}
+#' \item{\code{Fup.High}}{Posterior 97.5th quantile of fraction unbound in plasma (upper credible interval bound)}
+#' \item{\code{Fup.point}}{Point estimate of fraction unbound in plasma}
+#' \item{\code{Unstable}}{Qualitative determination of chemical stability. "Y" indicates observed chemical stability.}
+#' \item{\code{Uncertain}}{Qualitative determination of uncertainty about chemical stability. "Y" indicates uncertainty in observed chemical stability.}
+#' \item{\code{CV}}{Coefficient of variance}
 #' }
 #' @references
 #' \insertRef{howard2010plasma}{invitroTKdata}
@@ -373,15 +373,15 @@
 #' \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 #' \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
 #' \item{\code{Calibration}}{Identifier for mass spectrometry calibration -- usually the date}
-#' \item{\code{Clint}{Frequentist point estimate for intrinsic hepatic clearance (Clint)}}
-#' \item{\code{Clint.pValue}{p-value of the estimated \code{Clint} value}}
-#' \item{\code{Fit}{Test nominal concentrations in the linear regression fit}}
-#' \item{\code{AIC}{Akaike Information Criterion (AIC) for the linear regression fit}}
-#' \item{\code{AIC.Null}{Akaike Information Criterion of the exponential decay assuming a constant rate of decay}}
-#' \item{\code{Clint.1}{Intrinsic hepatic clearance at 1 uM (frequentist point estimate)}}
-#' \item{\code{Clint.10}{Intrinsic hepatic clearance at 10 uM (frequentist point estimate)}}
-#' \item{\code{AIC.Sat}{Akaike Information Criterion of the exponential decay with a saturation probability}}
-#' \item{\code{Sat.pValue}{p-value of exponential decay with a saturation probability}}
+#' \item{\code{Clint}}{Frequentist point estimate for intrinsic hepatic clearance (Clint)}
+#' \item{\code{Clint.pValue}}{p-value of the estimated \code{Clint} value}
+#' \item{\code{Fit}}{Test nominal concentrations in the linear regression fit}
+#' \item{\code{AIC}}{Akaike Information Criterion (AIC) for the linear regression fit}
+#' \item{\code{AIC.Null}}{Akaike Information Criterion of the exponential decay assuming a constant rate of decay}
+#' \item{\code{Clint.1}}{Intrinsic hepatic clearance at 1 uM (frequentist point estimate)}
+#' \item{\code{Clint.10}}{Intrinsic hepatic clearance at 10 uM (frequentist point estimate)}
+#' \item{\code{AIC.Sat}}{Akaike Information Criterion of the exponential decay with a saturation probability}
+#' \item{\code{Sat.pValue}}{p-value of exponential decay with a saturation probability}
 #' }
 #'
 #' @references
@@ -405,15 +405,15 @@
 #' \item{\code{Compound.Name}}{Compound name}
 #' \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 #' \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
-#' \item{\code{Clint.1.Med}{Posterior median intrinsic hepatic clearance at 1 uM}}
-#' \item{\code{Clint.1.Low}{Posterior 2.5th quantile of intrinsic hepatic clearance at 1 uM (lower credible interval bound)}}
-#' \item{\code{Clint.1.High}{Posterior 97.5th quantile of intrinsic hepatic clearance at 1 uM (upper credible interval bound)}}
-#' \item{\code{Clint.10.Med}{Posterior median intrinsic hepatic clearance at 10 uM}}
-#' \item{\code{Clint.10.Low}{Posterior 2.5th quantile of intrinsic hepatic clearance at 10 uM (lower credible interval bound)}}
-#' \item{\code{Clint.10.High}{Posterior 97.5th quantile of intrinsic hepatic clearance at 1 uM (upper credible interval bound)}}
-#' \item{\code{Clint.pValue}{Probability that a chemical concentration decrease is observed}}
-#' \item{\code{Sat.pValue}{Probability that a lower \code{Clint} is observed at a higher concentration, i.e. saturation probability}}
-#' \item{\code{degrades.pValue}{Probability of abiotic degradation}}
+#' \item{\code{Clint.1.Med}}{Posterior median intrinsic hepatic clearance at 1 uM}
+#' \item{\code{Clint.1.Low}}{Posterior 2.5th quantile of intrinsic hepatic clearance at 1 uM (lower credible interval bound)}
+#' \item{\code{Clint.1.High}}{Posterior 97.5th quantile of intrinsic hepatic clearance at 1 uM (upper credible interval bound)}
+#' \item{\code{Clint.10.Med}}{Posterior median intrinsic hepatic clearance at 10 uM}
+#' \item{\code{Clint.10.Low}}{Posterior 2.5th quantile of intrinsic hepatic clearance at 10 uM (lower credible interval bound)}
+#' \item{\code{Clint.10.High}}{Posterior 97.5th quantile of intrinsic hepatic clearance at 1 uM (upper credible interval bound)}
+#' \item{\code{Clint.pValue}}{Probability that a chemical concentration decrease is observed}
+#' \item{\code{Sat.pValue}}{Probability that a lower \code{Clint} is observed at a higher concentration, i.e. saturation probability}
+#' \item{\code{degrades.pValue}}{Probability of abiotic degradation}
 #' }
 #'
 #' @references
@@ -480,7 +480,7 @@
 #' \item{\code{Compound.Name}}{Compound name}
 #' \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 #' \item{\code{Calibration}}{Identifier for mass spectrometry calibration -- usually the date}
-#' \item{\code{Fup}{Frequentist point estimate for fraction unbound in plasma (fup)}}
+#' \item{\code{Fup}}{Frequentist point estimate for fraction unbound in plasma (fup)}
 #' }
 #'
 #' @references
@@ -503,10 +503,10 @@
 #' \item{\code{Compound.Name}}{Compound name}
 #' \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
 #' \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
-#' \item{\code{Fup.point}{Point estimate of fraction unbound in plasma}}
-#' \item{\code{Fup.Med}{Posterior median estimate of fraction unbound in plasma}}
-#' \item{\code{Fup.Low}{Posterior 2.5th quantile of fraction unbound in plasma (lower credible interval bound)}}
-#' \item{\code{Fup.High}{Posterior 97.5th quantile of fraction unbound in plasma (upper credible interval bound)}}
+#' \item{\code{Fup.point}}{Point estimate of fraction unbound in plasma}
+#' \item{\code{Fup.Med}}{Posterior median estimate of fraction unbound in plasma}
+#' \item{\code{Fup.Low}}{Posterior 2.5th quantile of fraction unbound in plasma (lower credible interval bound)}
+#' \item{\code{Fup.High}}{Posterior 97.5th quantile of fraction unbound in plasma (upper credible interval bound)}
 #' }
 #'
 #' @references
@@ -572,7 +572,7 @@
 #' \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 #' \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
 #' \item{\code{Calibration}}{Identifier for mass spectrometry calibration -- usually the date}
-#' \item{\code{Fup}{Frequentist point estimate for fraction unbound in plasma (fup)}}
+#' \item{\code{Fup}}{Frequentist point estimate for fraction unbound in plasma (fup)}
 #' }
 #'
 #' @references
@@ -595,10 +595,10 @@
 #' \item{\code{Compound.Name}}{Compound name}
 #' \item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
 #' \item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
-#' \item{\code{Fup.Med}{Posterior median fraction unbound in plasma}}
-#' \item{\code{Fup.Low}{Posterior 2.5th quantile of fraction unbound in plasma (lower credible interval bound)}}
-#' \item{\code{Fup.High}{Posterior 97.5th quantile of fraction unbound in plasma (upper credible interval bound)}}
-#' \item{\code{Fup.point}{Point estimate of fraction unbound in plasma}}
+#' \item{\code{Fup.Med}}{Posterior median fraction unbound in plasma}
+#' \item{\code{Fup.Low}}{Posterior 2.5th quantile of fraction unbound in plasma (lower credible interval bound)}
+#' \item{\code{Fup.High}}{Posterior 97.5th quantile of fraction unbound in plasma (upper credible interval bound)}
+#' \item{\code{Fup.point}}{Point estimate of fraction unbound in plasma}
 #' }
 #'
 #' @references
