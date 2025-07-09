@@ -621,18 +621,8 @@
 #' @name wambaugh2019.clint
 #' @aliases wambaugh2019.clint
 #' @docType data
-#' @format A data.frame with 23,021 rows and 11 variables: \describe{
-#' \item{\code{Preferred.Name}}{Preferred compound name from the CompTox Chemicals Dashboard (CCD)}
-#' \item{\code{CAS}}{CAS Registry Number of the test compound}
-#' \item{\code{DTXSID}}{EPA's DSSTox Structure ID}
-#' \item{\code{Sample.Name}}{Sample name used by the laboratory}
-#' \item{\code{Name}}{Compound names used by the laboratory}
-#' \item{\code{Area}}{Mass spectrometry peak area for the test compound}
-#' \item{\code{ISTD.Area}}{Mass spectrometry peak area for the internal standard}
-#' \item{\code{ISTDResponseRatio}}{The ratio between the \code{Area} (area for the tested compound) and the \code{ISTD.Area} (area for the internal standard)}
-#' \item{\code{Time..mins.}}{Time in minutes between the start of incubation and when the sample was taken}
-#' \item{\code{Conc}}{Concentration used in the assay}
-#' \item{\code{FileName}}{Name of the level-0 file containing the data}
+#' @format A data.frame with X rows and Y variables: \describe{
+#' \item{\code{Variable_Name}}{Description}
 #' }
 #'
 #' @references
@@ -643,63 +633,17 @@
 #' @keywords data
 "wambaugh2019.clint"
 
-#' Mass Spectrometry Methods for \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Chemicals
-#'
-#' As reported in \insertCite{wambaugh2019assessing;textual}{invitroTKdata}, contractor Cyprotex performed \emph{in vitro}
-#' toxicokinetic experiments requiring the development of analytical chemistry
-#' methods to quantitative concentration.
-#' Liquid chromatography/mass spectrometry (LC/MS) was faster and
-#' attempted first. Gas chromatography/mass spectrometry (GC/MS) was attempted
-#' when LC/MS failed. For some chemicals the attempts to develop an
-#' analysis method failed for both LC/MS and GC/MS and no
-#' \emph{in vitro} experiments were conducted.
-#'
-#' @name wambaugh2019.methods
-#' @aliases Wambaugh2019.methods
-#' @docType data
-#' @format A data.frame with 520 rows and 14 variables: \describe{
-#' \item{\code{DTXSID}}{EPA's DSSTox Structure ID}
-#' \item{\code{PREFERRED_NAME}}{Preferred compound name from the CompTox Chemicals Dashboard (CCD)}
-#' \item{\code{CASRN}}{CAS Registry Number of the test compound}
-#' \item{\code{MOLECULAR_FORMULA}}{Molecular formula of the test compound}
-#' \item{\code{AVERAGE_MASS}}{Molecular weight of the compound in daltons}
-#' \item{\code{QSAR_READY_SMILES}}{SMILES (Simplified molecular-input line-entry system) chemical structure description}
-#' \item{\code{LC}}{Logical variable indicating whether liquid chromatography-mass spectrometry was used}
-#' \item{\code{Agilent.QQQ}}{A column of yes/no/blank factor identifying whether the compound could/could not/was not measured with the Agilent.QQQ instrument}
-#' \item{\code{Water.s.Xevo}}{A column of yes/no/blank factor identifying whether the compound could/could not/was not measured with the Water.s.Xevo instrument}
-#' \item{\code{AB.Sciex.Qtrap}}{A column of yes/no/blank factor identifying whether the compound could/could not/was not measured with the AB.Sciex.Qtrap instrument}
-#' \item{\code{GC}}{Logical variable indicating whether gas chromatography-mass spectrometry was used}
-#' \item{\code{Agilent.GCMS}}{A column of yes/no/blank factor identifying whether the compound could/could not/was not measured with the Agilent.GCMS instrument}
-#' \item{\code{GCTOF}}{A column of yes/no/blank factor identifying whether the compound could/could not/was not measured with the GCTOF instrument}
-#' \item{\code{Comment}}{Any additional comments for the test compound}
-#'   }
-#' @references
-#' \insertRef{wambaugh2019assessing}{invitroTKdata}
-#' @source Wambaugh et al. (2019)
-#' @keywords data
-"wambaugh2019.methods"
-
 #' Mass Spectrometry for \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Protein Binding
 #'
 #' \insertCite{wambaugh2019assessing;textual}{invitroTKdata} includes chemical-specific measurements of plasma
-#' protein binding using the method of rapid equilibriuim dialysis (RED)
+#' protein binding using the method of rapid equilibrium dialysis (RED)
 #' \insertCite{waters2008validation}{invitroTKdata}.
 #'
 #' @name wambaugh2019.red
 #' @aliases Wambaugh2019.red
 #' @docType data
-#' @format A data.frame 17,689 rows and 11 variables: \describe{
-#' \item{\code{Preferred.Name}}{Preferred compound name from the CompTox Chemicals Dashboard (CCD)}
-#' \item{\code{CAS}}{CAS Registry Number of the test compound}
-#' \item{\code{DTXSID}}{EPA's DSSTox Structure ID}
-#' \item{\code{SampleName}}{Sample name used by the laboratory}
-#' \item{\code{CompoundName}}{Compound name used by the laboratory}
-#' \item{\code{Area}}{Mass spectrometry peak area for the test compound}
-#' \item{\code{ISTD.Area}}{Mass spectrometry peak area for the internal standard}
-#' \item{\code{ISTDResponseRatio}}{The ratio between the \code{Area} (area for the tested compound) and the \code{ISTD.Area} (area for the internal standard)}
-#' \item{\code{Dilution.Factor}}{Number of times the sample was diluted}
-#' \item{\code{Protein}}{The percent of physiological protein concentration used for the assay}
-#' \item{\code{RawDataSet}}{Name of the level-0 file containing the data}
+#' @format A data.frame X rows and Y variables: \describe{
+#' \item{\code{Variable_Name}}{Description}
 #' }
 #'
 #' @references
