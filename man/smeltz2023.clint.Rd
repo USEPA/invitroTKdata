@@ -25,7 +25,7 @@ A level-2 data.frame with 625 rows and 24 variables: \describe{
 \item{\code{Area}}{Peak area of analyte (target compound)}
 \item{\code{Analysis.Method}}{General description of chemical analysis method}
 \item{\code{Analysis.Instrument}}{Instrument(s) used for chemical analysis}
-\item{\code{Analysis.Parameters}}{Parameters for identifing analyte peak (for example, retention time)}
+\item{\code{Analysis.Parameters}}{Parameters for identifying analyte peak (for example, retention time)}
 \item{\code{Note}}{Any laboratory notes about sample}
 \item{\code{Level0.File}}{Name of data file from laboratory that was used to compile level0 data table)}
 \item{\code{Level0.Sheet}}{Name of "sheet" (for Excel workbooks) from which the laboratory data were read}

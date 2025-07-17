@@ -3,20 +3,35 @@
 \docType{data}
 \name{wambaugh2019.clint}
 \alias{wambaugh2019.clint}
-\title{Mass Spectrometry for \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Hepatocyte Incubations}
+\title{\insertCite{wambaugh2019assessing;textual}{invitroTKdata} Intrinsic Hepatic Clearance Level-2 Data Set}
 \format{
-A data.frame with 23,021 rows and 11 variables: \describe{
-\item{\code{Preferred.Name}}{Preferred compound name from the CompTox Chemicals Dashboard (CCD)}
-\item{\code{CAS}}{CAS Registry Number of the test compound}
-\item{\code{DTXSID}}{EPA's DSSTox Structure ID}
-\item{\code{Sample.Name}}{Sample name used by the laboratory}
-\item{\code{Name}}{Compound names used by the laboratory}
-\item{\code{Area}}{Mass spectrometry peak area for the test compound}
-\item{\code{ISTD.Area}}{Mass spectrometry peak area for the internal standard}
-\item{\code{ISTDResponseRatio}}{The ratio between the \code{Area} (area for the tested compound) and the \code{ISTD.Area} (area for the internal standard)}
-\item{\code{Time..mins.}}{Time in minutes between the start of incubation and when the sample was taken}
-\item{\code{Conc}}{Concentration used in the assay}
-\item{\code{FileName}}{Name of the level-0 file containing the data}
+A data.frame with 22898 rows and 26 variables: \describe{
+\item{\code{Lab.Sample.Name}}{Sample description used in the laboratory}
+\item{\code{Date}}{Date sample was acquired}
+\item{\code{Compound.Name}}{Compound name}
+\item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
+\item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
+\item{\code{Sample.Type}}{Type of Clint sample}
+\item{\code{Dilution.Factor}}{Number of times the sample was diluted}
+\item{\code{Calibration}}{Identifier for mass spectrometry calibration -- usually the date}
+\item{\code{ISTD.Name}}{Name of compound used as internal standard (ISTD)}
+\item{\code{ISTD.Conc}}{Concentration of ISTD (uM)}
+\item{\code{ISTD.Area}}{Peak area of internal standard (pixels)}
+\item{\code{Area}}{Peak area of analyte (target compound)}
+\item{\code{Analysis.Method}}{General description of chemical analysis method}
+\item{\code{Analysis.Instrument}}{Instrument(s) used for chemical analysis}
+\item{\code{Analysis.Parameters}}{Parameters for identifying analyte peak (for example, retention time)}
+\item{\code{Note}}{Any laboratory notes about sample}
+\item{\code{Level0.File}}{Name of data file from laboratory that was used to compile level-0 data.frame}
+\item{\code{Level0.Sheet}}{Name of "sheet" (for Excel workbooks) from which the laboratory data were read}
+\item{\code{Time}}{Time when sample was measured (h)}
+\item{\code{Test.Compound.Conc}}{Measured concentration of analytic standard (for calibration curve) (uM)}
+\item{\code{Test.Nominal.Conc}}{Expected initial concentration of chemical added to donor side (uM)}
+\item{\code{Hep.Density}}{The density (units of millions of hepatocytes per mL) hepatocytes in the \emph{in vitro} incubation}
+\item{\code{Biological.Replicates}}{Identifier for measurements of multiple samples with the same analyte}
+\item{\code{Technical.Replicates}}{Identifier for measurements of one sample of a compound}
+\item{\code{Response}}{Response factor (calculated from analyte and ISTD peaks)}
+\item{\code{Verified}}{If "Y", then sample is included in the analysis. (Any other value causes the data to be ignored.)}
 }
 }
 \source{
@@ -26,9 +41,9 @@ Wambaugh et al. (2019)
 wambaugh2019.clint
 }
 \description{
-\insertCite{wambaugh2019assessing;textual}{invitroTKdata} includes measurements for intrinsic hepatic clearance
-(Clint) measured using \emph{in vitro} suspensions of pooled primary human hepatocytes
-\insertCite{shibata2002prediction}{invitroTKdata}.
+Mass spectrometry measurements of intrinsic hepatic clearance
+(Clint) measured using \emph{in vitro} suspensions of pooled primary human
+hepatocytes \insertCite{shibata2002prediction}{invitroTKdata}.
 }
 \references{
 \insertRef{shibata2002prediction}{invitroTKdata}
