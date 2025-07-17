@@ -723,7 +723,7 @@
 #' @keywords data
 "wambaugh2019.clint.L4"
 
-#' \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Rapid Equilibrium Dialysis Protein Binding Assay Level-2 Data Set
+#' \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Rapid Equilibrium Dialysis Level-2 Data Set
 #'
 #' Mass spectrometry measurements of plasma protein binding using the rapid
 #' equilibrium dialysis (RED) assay method
@@ -769,7 +769,7 @@
 #' @keywords data
 "wambaugh2019.red"
 
-#' \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Rapid Equilibrium Dialysis Protein Binding Assay Level-3 Data Set
+#' \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Rapid Equilibrium Dialysis Level-3 Data Set
 #'
 #' Frequentist estimate of plasma protein binding using the rapid equilibrium
 #' dialysis (RED) assay method \insertCite{waters2008validation}{invitroTKdata}.
@@ -792,7 +792,7 @@
 #' @keywords data
 "wambaugh2019.red.L3"
 
-#' \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Rapid Equilibrium Dialysis Protein Binding Assay Level-4 Data Set
+#' \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Rapid Equilibrium Dialysis Level-4 Data Set
 #'
 #' Bayesian estimate of plasma protein binding using the rapid equilibrium
 #' dialysis (RED) assay method \insertCite{waters2008validation}{invitroTKdata}.

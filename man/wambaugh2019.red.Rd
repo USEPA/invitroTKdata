@@ -4,7 +4,7 @@
 \name{wambaugh2019.red}
 \alias{wambaugh2019.red}
 \alias{Wambaugh2019.red}
-\title{\insertCite{wambaugh2019assessing;textual}{invitroTKdata} Rapid Equilibrium Dialysis Protein Binding Assay Level-2 Data Set}
+\title{\insertCite{wambaugh2019assessing;textual}{invitroTKdata} Rapid Equilibrium Dialysis Level-2 Data Set}
 \format{
 A data.frame 15990 rows and 26 variables: \describe{
 \item{\code{Lab.Sample.Name}}{Sample description used in the laboratory}

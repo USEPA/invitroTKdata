@@ -3,7 +3,7 @@
 \docType{data}
 \name{wambaugh2019.red.L4}
 \alias{wambaugh2019.red.L4}
-\title{\insertCite{wambaugh2019assessing;textual}{invitroTKdata} Rapid Equilibrium Dialysis Protein Binding Assay Level-4 Data Set}
+\title{\insertCite{wambaugh2019assessing;textual}{invitroTKdata} Rapid Equilibrium Dialysis Level-4 Data Set}
 \format{
 A data.frame 301 rows and 7 variables: \describe{
 \item{\code{Compound.Name}}{Compound name}
