@@ -4,7 +4,7 @@
 \name{smeltz2023.clint}
 \alias{smeltz2023.clint}
 \alias{Smeltz2023.clint}
-\title{\insertCite{smeltz2023plasma;textual}{invitroTKdata} Intrinsic Hepatic Clearance Data Set}
+\title{\insertCite{smeltz2023plasma;textual}{invitroTKdata} Intrinsic Hepatic Clearance Level-2 Data Set}
 \format{
 A level-2 data.frame with 625 rows and 24 variables: \describe{
 \item{\code{Lab.Sample.Name}}{Sample description used in the laboratory}
@@ -25,7 +25,7 @@ A level-2 data.frame with 625 rows and 24 variables: \describe{
 \item{\code{Area}}{Peak area of analyte (target compound)}
 \item{\code{Analysis.Method}}{General description of chemical analysis method}
 \item{\code{Analysis.Instrument}}{Instrument(s) used for chemical analysis}
-\item{\code{Analysis.Parameters}}{Parameters for identifing analyte peak (for example, retention time)}
+\item{\code{Analysis.Parameters}}{Parameters for identifying analyte peak (for example, retention time)}
 \item{\code{Note}}{Any laboratory notes about sample}
 \item{\code{Level0.File}}{Name of data file from laboratory that was used to compile level0 data table)}
 \item{\code{Level0.Sheet}}{Name of "sheet" (for Excel workbooks) from which the laboratory data were read}
