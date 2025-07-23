@@ -13,7 +13,7 @@ Authors@R: c(
              role = c("aut","cre"), comment = c(ORCID = "0000-0002-2891-9380")),
            person("John", "Wambaugh", email = "wambaugh.john@epa.gov", 
              role = c("aut"),comment = c(ORCID = "0000-0002-4024-534X")),
-           person("Lindsay","Knupp",email = "knupp.lindsay@epa.gov",role = c("ctb")), 
+           person("Lindsay","Knupp",role = c("ctb")), 
            person("Barbara A.","Wetmore",role = c("ctb"),
             comment = c(ORCID = "0000-0002-6878-5348")),
            person("Anna", "Kreutz", role = c("ctb"),
