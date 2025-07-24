@@ -4,20 +4,35 @@
 \name{wambaugh2019.red}
 \alias{wambaugh2019.red}
 \alias{Wambaugh2019.red}
-\title{Mass Spectrometry for \insertCite{wambaugh2019assessing;textual}{invitroTKdata} Protein Binding}
+\title{\insertCite{wambaugh2019assessing;textual}{invitroTKdata} Rapid Equilibrium Dialysis Level-2 Data Set}
 \format{
-A data.frame 17,689 rows and 11 variables: \describe{
-\item{\code{Preferred.Name}}{Preferred compound name from the CompTox Chemicals Dashboard (CCD)}
-\item{\code{CAS}}{CAS Registry Number of the test compound}
-\item{\code{DTXSID}}{EPA's DSSTox Structure ID}
-\item{\code{SampleName}}{Sample name used by the laboratory}
-\item{\code{CompoundName}}{Compound name used by the laboratory}
-\item{\code{Area}}{Mass spectrometry peak area for the test compound}
-\item{\code{ISTD.Area}}{Mass spectrometry peak area for the internal standard}
-\item{\code{ISTDResponseRatio}}{The ratio between the \code{Area} (area for the tested compound) and the \code{ISTD.Area} (area for the internal standard)}
+A data.frame 15990 rows and 26 variables: \describe{
+\item{\code{Lab.Sample.Name}}{Sample description used in the laboratory}
+\item{\code{Date}}{Date sample was acquired}
+\item{\code{Compound.Name}}{Compound name}
+\item{\code{DTXSID}}{DSSTox Substance Identifier (CompTox Chemicals Dashboard)}
+\item{\code{Lab.Compound.Name}}{Compound as described in the laboratory}
+\item{\code{Sample.Type}}{Type of RED sample}
 \item{\code{Dilution.Factor}}{Number of times the sample was diluted}
-\item{\code{Protein}}{The percent of physiological protein concentration used for the assay}
-\item{\code{RawDataSet}}{Name of the level-0 file containing the data}
+\item{\code{Calibration}}{Identifier for mass spectrometry calibration - usually the date}
+\item{\code{ISTD.Name}}{Name of compound used as internal standard (ISTD)}
+\item{\code{ISTD.Conc}}{Concentration of ISTD (uM)}
+\item{\code{ISTD.Area}}{Peak area internal standard (pixels)}
+\item{\code{Area}}{Peak area of analyte (target compound)}
+\item{\code{Analysis.Method}}{General description of chemical analysis method}
+\item{\code{Analysis.Instrument}}{Instrument(s) used for chemical analysis}
+\item{\code{Analysis.Parameters}}{Parameters for identifying analyte peak (for example, retention time)}
+\item{\code{Note}}{Any laboratory notes about sample}
+\item{\code{Level0.File}}{Name of data file from laboratory that was used to compile level-0 data.frame}
+\item{\code{Level0.Sheet}}{Name of "sheet" (for Excel workbooks) from which the laboratory data were read}
+\item{\code{Time}}{Time when sample was measured (h)}
+\item{\code{Test.Compound.Conc}}{Measured concentration of analytic standard (for calibration curve) (uM)}
+\item{\code{Test.Nominal.Conc}}{Expected initial concentration of chemical added to donor side (uM)}
+\item{\code{Percent.Physiologic.Plasma}}{Percent of physiology plasma concentration in RED plate (in percent)}
+\item{\code{Biological.Replicates}}{Identifier for measurements of multiple samples with the same analyte}
+\item{\code{Technical.Replicates}}{Identifier for measurements of one sample of a compound}
+\item{\code{Response}}{Response factor (calculated from analyte and ISTD peaks)}
+\item{\code{Verified}}{If "Y", then sample is included in the analysis. (Any other value causes the data to be ignored.)}
 }
 }
 \source{
@@ -27,8 +42,8 @@ Wambaugh et al. (2019)
 wambaugh2019.red
 }
 \description{
-\insertCite{wambaugh2019assessing;textual}{invitroTKdata} includes chemical-specific measurements of plasma
-protein binding using the method of rapid equilibriuim dialysis (RED)
+Mass spectrometry measurements of plasma protein binding using the rapid
+equilibrium dialysis (RED) assay method
 \insertCite{waters2008validation}{invitroTKdata}.
 }
 \references{
