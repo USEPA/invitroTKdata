@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 
 The `invitroTKdata` R package contains a collection of datasets containing a variety of *in vitro* toxicokinetic measurements including -- but not limited to -- chemical fraction unbound in the presence of plasma ($f_{up}$), intrinsic hepatic clearance ($Cl_{int}$), and membrane permeability for oral absorption (Caco2). The datasets provided by the package were processed and analyzed with the companion `invitroTKstats` package
 
-**Notification:** *Datasets within this package have all been processed with various prototype versions of the `invitroTKstats` R package. We refer users to the [`invitroTKstats` R package](https://github.com/USEPA/invitroTKstats.git) and [invitrotkstats_dataproc](https://github.com/USEPA/invitrotkstats_dataproc.git) GitHub pages to obtain the latest version of the package and original raw data/processing scripts, respectively.*
+**Notification:** *Datasets within this package have all been processed with various prototype versions of the `invitroTKstats` R package. We refer users to the [`invitroTKstats` R package](https://github.com/USEPA/invitroTKstats) and [invitrotkstats_dataproc](https://github.com/USEPA/invitrotkstats_dataproc) GitHub pages to obtain the latest version of the package and original raw data/processing scripts, respectively.*
 
 If you are interested in contributing or want to report a bug, please submit an issue or start a discussion.
 
@@ -31,15 +31,15 @@ If you are interested in contributing or want to report a bug, please submit an 
 * Installing the current version of the package from GitHub, run the following command:
 
 ```r
-devtools::install_github("https://github.com/USEPA/invitroTKdata.git")
+devtools::install_github("https://github.com/USEPA/invitroTKdata")
 ```
 
 * Installing a local clone of the GitHub repo:
 
-  1. Go to the GitHub repo for [`invitroTKdata`](https://github.com/USEPA/invitroTKdata.git).
+  1. Go to the GitHub repo for [`invitroTKdata`](https://github.com/USEPA/invitroTKdata).
   2. Choose the "Code" button and copy the repo URL.
   3. In your local command line terminal, navigate to the directory location you wish to store your local copy of the repo.
-  4. In your terminal type `git clone https://github.com/USEPA/invitroTKdata.git`.
+  4. In your terminal type `git clone https://github.com/USEPA/invitroTKdata`.
   5. After cloning completes then open an R session.
   6. In the R console use the following commands:
   
