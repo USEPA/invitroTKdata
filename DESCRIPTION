@@ -1,6 +1,6 @@
 Package: invitroTKdata
 Version: 0.0.1
-Date: 2025-05-05
+Date: 2025-07-17
 Title: Datasets from an In Vitro Toxicokinetic Data Processing and Analysis Pipeline (invitroTKstats)
 Description: A collection of datasets containing a variety of in vitro toxicokinetic 
              measurements including -- but not limited to -- chemical fraction unbound 
