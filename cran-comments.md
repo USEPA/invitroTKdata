@@ -1,5 +1,5 @@
 ## Changes from last version
-* initial package submission to CRAN
+* initial data package submission to CRAN
 
 ## Test environments
 
