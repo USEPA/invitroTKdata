@@ -4,3 +4,6 @@
 
 # RStudio files
 .Rproj.user
+
+# Internal Management Files - CRAN Submissions #
+CRAN-SUBMISSION

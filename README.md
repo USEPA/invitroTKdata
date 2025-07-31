@@ -4,6 +4,7 @@
 # invitroTKdata
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
 ## Welcome to the GitHub repository for the invitroTKdata package
@@ -19,8 +20,8 @@ by the package were processed and analyzed with the companion
 **Notification:** *Datasets within this package have all been processed
 with various prototype versions of the `invitroTKstats` R package. We
 refer users to the [`invitroTKstats` R
-package](https://github.com/USEPA/invitroTKstats.git) and
-[invitrotkstats_dataproc](https://github.com/USEPA/invitrotkstats_dataproc.git)
+package](https://github.com/USEPA/invitroTKstats) and
+[invitrotkstats_dataproc](https://github.com/USEPA/invitrotkstats_dataproc)
 GitHub pages to obtain the latest version of the package and original
 raw data/processing scripts, respectively.*
 
@@ -33,18 +34,18 @@ submit an issue or start a discussion.
   following command:
 
 ``` r
-devtools::install_github("https://github.com/USEPA/invitroTKdata.git")
+devtools::install_github("https://github.com/USEPA/invitroTKdata")
 ```
 
 - Installing a local clone of the GitHub repo:
 
   1.  Go to the GitHub repo for
-      [`invitroTKdata`](https://github.com/USEPA/invitroTKdata.git).
+      [`invitroTKdata`](https://github.com/USEPA/invitroTKdata).
   2.  Choose the “Code” button and copy the repo URL.
   3.  In your local command line terminal, navigate to the directory
       location you wish to store your local copy of the repo.
   4.  In your terminal type
-      `git clone https://github.com/USEPA/invitroTKdata.git`.
+      `git clone https://github.com/USEPA/invitroTKdata`.
   5.  After cloning completes then open an R session.
   6.  In the R console use the following commands:
 
