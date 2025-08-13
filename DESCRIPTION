@@ -1,26 +1,27 @@
 Package: invitroTKdata
 Version: 0.0.1
-Date: 2025-05-05
-Title: Datasets from an In Vitro Toxicokinetic Data Processing and Analysis Pipeline (invitroTKstats)
+Date: 2025-07-17
+Title: In Vitro Toxicokinetic Data Processed with the 'invitroTKstats' Pipeline
 Description: A collection of datasets containing a variety of in vitro toxicokinetic 
              measurements including -- but not limited to -- chemical fraction unbound 
              in the presence of plasma (f_up), intrinsic hepatic clearance (Clint,
              uL/min/million hepatocytes), and membrane permeability for
              oral absorption (Caco2). The datasets provided by the package were 
-             processed and analyzed with the companion invitroTKstats package. 
+             processed and analyzed with the companion 'invitroTKstats' package. 
 Authors@R: c(
            person("Sarah E.", "Davidson-Fritz", email = "davidsonfritz.sarah@epa.gov", 
              role = c("aut","cre"), comment = c(ORCID = "0000-0002-2891-9380")),
            person("John", "Wambaugh", email = "wambaugh.john@epa.gov", 
              role = c("aut"),comment = c(ORCID = "0000-0002-4024-534X")),
-           person("Lindsay","Knupp",email = "knupp.lindsay@epa.gov",role = c("ctb")), 
+           person("Lindsay","Knupp",role = c("ctb")), 
            person("Barbara A.","Wetmore",role = c("ctb"),
             comment = c(ORCID = "0000-0002-6878-5348")),
            person("Anna", "Kreutz", role = c("ctb"),
             comment = c(ORCID = "0000-0002-7787-0683")),
            person("Marci","Smeltz",role = c("ctb"),
             comment = c(ORCID = "0000-0001-9723-8696")),
-           person("David","Crizer",role = c("ctb"))
+           person("David","Crizer",role = c("ctb")),
+           person("U.S. Federal Government",role = "cph",comment = "Copyright holder of this package")
            )
 Depends: R (>= 3.5.0)
 Imports: Rdpack
@@ -30,3 +31,5 @@ LazyData: true
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+URL: https://github.com/USEPA/invitroTKdata
+BugReports: https://github.com/USEPA/invitroTKdata/issues
