@@ -9,10 +9,12 @@ Description: A collection of datasets containing a variety of in vitro toxicokin
              oral absorption (Caco2). The datasets provided by the package were 
              processed and analyzed with the companion 'invitroTKstats' package. 
 Authors@R: c(
+           person("Caroline","Ring",email = "ring.caroline@epa.gov",
+            role = c("cre"), comment = c(ORCID = "0000-0002-0463-1251")),
            person("Sarah E.", "Davidson-Fritz", email = "davidsonfritz.sarah@epa.gov", 
-             role = c("aut","cre"), comment = c(ORCID = "0000-0002-2891-9380")),
-           person("John", "Wambaugh", email = "wambaugh.john@epa.gov", 
-             role = c("aut"),comment = c(ORCID = "0000-0002-4024-534X")),
+             role = c("aut"), comment = c(ORCID = "0000-0002-2891-9380")),
+           person("John", "Wambaugh",role = c("aut"),
+            comment = c(ORCID = "0000-0002-4024-534X")),
            person("Lindsay","Knupp",role = c("ctb")), 
            person("Barbara A.","Wetmore",role = c("ctb"),
             comment = c(ORCID = "0000-0002-6878-5348")),
