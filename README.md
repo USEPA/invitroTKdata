@@ -8,7 +8,7 @@
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/invitroTKdata)](https://cran.r-project.org/package=invitroTKdata)
 [![Active](http://img.shields.io/badge/Status-Active-green.svg)](https://cran.r-project.org/package=invitroTKdata)
 [![Monthly
-Downloads](http://cranlogs.r-pkg.org/badges/last-month/invitroTKdata)](https://cran.r-project.org/package=invitroTKdata)
+Downloads](http://cranlogs.r-pkg.org/badges/last-month/invitroTKdata?color=7BAFD4)](https://cran.r-project.org/package=invitroTKdata?color=7BAFD4)
 [![Total
 Downloads](http://cranlogs.r-pkg.org/badges/grand-total/invitroTKdata)](https://cran.r-project.org/package=invitroTKdata)
 [![DOI](https://zenodo.org/badge/doi/10.32614/CRAN.package.invitroTKdata.svg)](https://dx.doi.org/10.32614/CRAN.package.invitroTKdata)
