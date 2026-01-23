@@ -11,7 +11,7 @@
 
 0 errors ✔ | 0 warnings ✔ | 3 notes ✖
 
-* This is a new release.
+* change maintainer from Sarah E. Davidson-Fritz to Caroline Ring
 * false positives:
     * checking for future file timestamps ... unable to verify current time
     * checking dependencies in R code ... Namespace in Imports field not imported from: 'Rdpack'
