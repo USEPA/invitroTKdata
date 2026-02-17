@@ -11,15 +11,15 @@
 
 0 errors ✔ | 0 warnings ✔ | 3 notes ✖
 
-* This is a new release.
+* change maintainer from Sarah E. Davidson-Fritz to Caroline Ring
 * false positives:
     * checking for future file timestamps ... unable to verify current time
     * checking dependencies in R code ... Namespace in Imports field not imported from: 'Rdpack'
 
 ## win-builder results
-Installation time in seconds: 5
-Check time in seconds: 62
+Installation time in seconds: 6
+Check time in seconds: 67
 Status: 1 NOTE
-R Under development (unstable) (2025-07-30 r88476 ucrt)
+R Under development (unstable) (2026-02-12 r89409 ucrt)
 
-* this NOTE is related to initial package submission to CRAN
+* this NOTE is related to change in maintainer from Sarah E. Davidson-Fritz to Caroline Ring
